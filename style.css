@@ -141,8 +141,10 @@ header {
 .hero-abso-right {
     position: absolute;
     width: 172.68px;
+    height: 180.5px;
     top: 324px;
     right: 0px;
+    object-fit: contain;
 }
 
 .hero-text-content {
@@ -293,3 +295,185 @@ align-items: start;
 .footer-bottom a {
     cursor: pointer;
 }
+
+
+/* Mobile Styling */
+@media (max-width: 430px) {
+    
+    /* Typography */
+    .text-preset-1 {
+        font-size: 48px;
+    }
+    
+    .text-preset-2 {
+        font-size: 32px;
+    }
+    
+    .text-preset-3 {
+        font-size: 24px;
+    }
+    
+
+    /* Main Styling */
+.padding-global {
+    padding: 0px 20px
+}
+
+header {
+    padding-bottom: 193px;
+}
+.navbar {
+    padding: 32px 20px 0px 20px;
+}
+
+.nav-wrapper {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-component {
+    padding: 56px 20px 164px 20px;
+    background-color: #24053E;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-abso-left {
+    width: 339.64px;
+    height: 316.82px;
+    top: 12px;
+    left: -171px;
+}
+
+.hero-abso-right {
+    position: absolute;
+    width: 172.68px;
+    height: 180.5px;
+    top: 195px;
+    right: -72px;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 437px;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: -193px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    width: 514.81px;
+}
+
+}
+
+
+/* Tablet Styling */
+@media (max-width: 768px) {
+    
+    /* Typography */
+    .text-preset-1 {
+        font-size: 60px;
+    }
+    
+    .text-preset-2 {
+        font-size: 48px;
+    }
+    
+    .text-preset-3 {
+        font-size: 28px;
+    }
+    
+    .text-preset-4 {
+        font-size: 16px;
+    }
+
+
+
+    /* Main Styling */
+.padding-global {
+    padding: 0px 44px
+}
+
+header {
+    padding-bottom: 193px;
+}
+.navbar {
+    padding: 32px 44px 0px 44px;
+}
+
+.nav-wrapper {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-component {
+    padding: 56px 44px 164px 44px;
+    background-color: #24053E;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-abso-left {
+    width: 339.64px;
+    height: 316.82px;
+    top: 12px;
+    left: -171px;
+}
+
+.hero-abso-right {
+    position: absolute;
+    width: 172.68px;
+    height: 180.5px;
+    top: 195px;
+    right: -72px;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 437px;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: -193px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    width: 514.81px;
+}
+
+}
+
