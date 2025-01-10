@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+
+/* Desktop Styling */
 /* Typography */
 .text-preset-1 {
     font-family: "Fraunces", serif;
@@ -40,10 +42,150 @@
     font-weight: 400;
 }
 
-.text-preset-4 {
+.text-preset-5 {
     font-family: "Manrope", serif;
     font-size: 18px;
     line-height: 150%;
     letter-spacing: 0px;
     font-weight: 700;
 }
+/* Buttons */
+.button {
+    padding: 12px 32px;
+    background-color: #44FFA1;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.is-text {
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: #44FFA1 solid 1px;
+}
+
+
+
+/* Main Styling */
+.padding-global {
+    padding: 0px 80px
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0px auto;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-bottom: 232px;
+}
+.navbar {
+    padding: 56px 80px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #24053E;
+}
+
+.nav-wrapper {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 96px;
+    color: white;
+}
+
+.hero-component {
+    padding: 56px 80px 296px 80px;
+    background-color: #24053E;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 635px;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: -232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    width: 767.5px;
+}
+
+header img {
+    width: 100%;
+    margin-top: -0.5px;
+}
+
+/* Features Section */
+.features-section {
+    padding: 88px 0px 116px 0px;
+}
+
+.features-list-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 32px;
+}
+
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 56px;
+    align-items: center;
+}
+
+.feature-sn {
+    width: 56px;
+    height: 56px;
+    border: #24053E solid 1px;
+    border-radius: 999px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+
+.feature-item-content {
+    color: #24053E;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+/* CTA Section */
