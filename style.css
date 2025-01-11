@@ -5,6 +5,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 
 
@@ -81,6 +82,11 @@
 
 
 /* Main Styling */
+
+body {
+    overflow-x: hidden;
+}
+
 .padding-global {
     padding: 0px 80px
 }
@@ -96,6 +102,8 @@ header {
     flex-direction: column;
     gap: 0px;
     padding-bottom: 232px;
+    
+    
 }
 .navbar {
     padding: 56px 80px 0px 80px;
@@ -127,6 +135,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .hero-abso-left {
@@ -143,7 +152,7 @@ header {
     width: 172.68px;
     height: 180.5px;
     top: 324px;
-    right: 0px;
+    right: -47px;
     object-fit: contain;
 }
 
@@ -225,7 +234,7 @@ header img {
 
 /* CTA Section */
 .cta {
-padding: 112px;
+padding-top: 112px;
 }
 
 
@@ -320,111 +329,164 @@ align-items: start;
 
 
     /* Main Styling */
-.padding-global {
-    padding: 0px 44px
-}
+    .padding-global {
+        padding: 0px 44px
+    }
 
-header {
-    padding-bottom: 193px;
-}
-.navbar {
-    padding: 32px 44px 0px 44px;
-}
+    header {
+        padding-bottom: 120px;
+    }
+    .navbar {
+        padding: 32px 44px 0px 44px;
+    }
 
-.nav-wrapper {
-    width: 100%;
-    max-width: 1120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .nav-wrapper {
+        width: 100%;
+        max-width: 1120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.hero-component {
-    padding: 56px 44px 164px 44px;
+    .hero-component {
+        padding: 56px 44px 164px 44px;
+        background-color: #24053E;
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-abso-left {
+        width: 339.64px;
+        height: 316.82px;
+        top: 12px;
+        left: -171px;
+    }
+
+    .hero-abso-right {
+        position: absolute;
+        width: 172.68px;
+        height: 180.5px;
+        top: 195px;
+        right: -72px;
+    }
+
+    .hero-text-content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        max-width: 437px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image-wrap {
+        width: 100%;
+        position: absolute;
+        bottom: -193px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 24px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 514.81px;
+    }
+
+    /* Features Tablet Section */
+    .features-section {
+        padding: 120px 0px 116px 0px;
+    }
+
+    .features-list-grid {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .feature-item{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        gap: 56px;
+        align-items: start;
+    }
+
+    .feature-sn {
+        width: 48px;
+        height: 48px;
+        flex: 0 0 auto;
+        border: #24053E solid 1px;
+        border-radius: 999px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-item-content {
+        color: #24053E;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+/* CTA Tablet Section */
+.cta {
+    padding-top: 112px;
+    }
+    
+    
+    .cta-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: right;
+    }
+    
+    .head-shot {
+        width: 280px;
+        height: 280px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .cta-wrap {
+    max-width: 504px;
+    position: relative;
+    padding: 48px;
+    margin-top: 166px;
     background-color: #24053E;
     color: white;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hero-abso-left {
-    width: 339.64px;
-    height: 316.82px;
-    top: 12px;
-    left: -171px;
-}
-
-.hero-abso-right {
-    position: absolute;
-    width: 172.68px;
-    height: 180.5px;
-    top: 195px;
-    right: -72px;
-}
-
-.hero-text-content {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-    max-width: 437px;
-    align-items: center;
-    text-align: center;
-}
-
-.hero-image-wrap {
-    width: 100%;
-    position: absolute;
-    bottom: -193px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hero-image {
-    width: 514.81px;
-}
-
-/* Features Tablet Section */
-.features-section {
-    padding: 88px 0px 186px 0px;
-}
-
-.features-list-grid {
-    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 32px;
-}
-
-.feature-item{
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    gap: 56px;
     align-items: start;
+    }
+    
+    .cta-shape {
+        position: absolute;
+        width: 220.29px;
+        bottom: -114px;
+        right: 14px;
+    }
+
+
+    /* Footer Styling */
+    .footer-component {
+        padding: 80px 80px;
+    }
 }
 
-.feature-sn {
-    width: 48px;
-    height: 48px;
-    flex: 0 0 auto;
-    border: #24053E solid 1px;
-    border-radius: 999px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-.feature-item-content {
-    color: #24053E;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-}
-}
 
 /* Mobile Styling */
 @media (max-width: 430px) {
@@ -443,65 +505,151 @@ header {
     } 
 
     /* Main Styling */
-.padding-global {
-    padding: 0px 20px
-}
+    .padding-global {
+        padding: 0px 20px
+    }
 
-header {
-    padding-bottom: 193px;
-}
-.navbar {
-    padding: 32px 20px 0px 20px;
-}
+    header {
+        padding-bottom: 56px;
+    }
+    .navbar {
+        padding: 32px 20px 0px 20px;
+    }
 
-.nav-wrapper {
-    width: 100%;
-    max-width: 1120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .nav-wrapper {
+        width: 100%;
+        max-width: 1120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.hero-component {
-    padding: 56px 20px 144px 20px;
+    .hero-component {
+        padding: 56px 20px 144px 20px;
+        background-color: #24053E;
+        color: white;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-abso-left {
+    display: none;
+    }
+
+    .hero-abso-right {
+    display: none;
+    }
+
+    .hero-text-content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        max-width: 437px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image-wrap {
+        width: 100%;
+        position: absolute;
+        bottom: -100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 320px;
+    }
+
+
+    /* Features Mobile Section */
+    .features-section {
+        padding: 56px 0px 88px 0px;
+    }
+    
+    .features-list-grid {
+         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .feature-item{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 56px;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    .feature-sn {
+        width: 48px;
+        height: 48px;
+         flex: 0 0 auto;
+        border: #24053E solid 1px;
+        border-radius: 999px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .feature-item-content {
+        color: #24053E;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    
+    /* CTA Tablet Section */
+    .cta {
+    padding-top: 112px;
+    }
+    
+    
+    .cta-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .head-shot {
+        width: 280px;
+        height: 280px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .cta-wrap {
+    max-width: 504px;
+    position: relative;
+    padding: 32px;
+    margin-top: -53px;
     background-color: #24053E;
     color: white;
-    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.hero-abso-left {
-display: none;
-}
-
-.hero-abso-right {
-display: none;
-}
-
-.hero-text-content {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-    max-width: 437px;
+    gap: 32px;
     align-items: center;
     text-align: center;
-}
-
-.hero-image-wrap {
-    width: 100%;
-    position: absolute;
-    bottom: -100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hero-image {
-    width: 320px;
-}
+    
+    }
+    
+    .cta-shape {
+        display: none;
+    }
 
 }
 
